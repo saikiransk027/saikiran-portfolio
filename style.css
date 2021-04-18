@@ -13,3 +13,26 @@ body {
 font-family: 'Poppins', sans-serif;
 
 }
+
+hr{
+    margin: 2rem 0;
+}
+
+/* px, em, rem0 */
+
+/* containers */
+
+ /* classs=repeatable call the class on multiple elemnts  , not used for linking,id= not replaceble, only once it used,used for linking*/
+#title{
+    font-size: 2rem;
+}
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container{
+    margin: auto; 
+    padding-left: 1rem;
+    padding-right: 1 rem;
+    max-width: 600px;
+}
