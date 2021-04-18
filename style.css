@@ -8,6 +8,13 @@
     
 }
 
+:root{
+    --primary:#93C5FD;
+    --secondary:#5e2844;
+    --gray: #3730A3;
+    --white:#ffff;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -35,4 +42,27 @@ hr{
     padding-left: 1rem;
     padding-right: 1 rem;
     max-width: 600px;
+}
+
+/* links */
+.Links{
+    min-width: 140px;
+    max-width: max-content;
+    padding:0.5rem 1rem;
+    margin:0.5rem;
+    text-decoration:none;
+}
+
+.primary-Link{
+    color: var(--gray) ;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem ;
+}
+
+.secondary-Link{
+    color: var(--white) ;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    border-radius: 0.5rem ;
 }
